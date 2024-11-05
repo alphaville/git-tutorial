@@ -10,4 +10,4 @@ def sum_squares(x):
 
 z = [1, 2, 0, 3]
 r = sum_squares(z)
-print(r)
+assert r == 14
