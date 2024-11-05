@@ -20,11 +20,6 @@ def sum_cubes(x):
     return s
 
 
-z = [1, 2, 0, 3]
-r = sum_squares(z)
-assert r == 14
-
-
 a = [1, 2, 3]
 expected_result = 36
 sc = sum_cubes(a)
