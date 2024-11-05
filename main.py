@@ -4,7 +4,7 @@ print("Hello, world!")
 def sum_squares(x):
     s = 0
     for xi in x:
-        s += x
+        s += x**2
     return s
 
 
