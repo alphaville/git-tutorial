@@ -1,1 +1,19 @@
 secrets/
+
+# MacOS
+.DS_Store
+
+# Python-specific
+__pycache__/
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.pytest_cache/
+
+# Virtual Environment
+venv/
+
+# PyCharm
+.idea/
