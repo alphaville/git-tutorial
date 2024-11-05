@@ -4,10 +4,10 @@ print("Hello, world!")
 def sum_squares(x):
     s = 0
     for xi in x:
-        s += x**2
+        s += xi**2
     return s
 
 
-z = [1, 2, 3, 4]
+z = [1, 2, 0, 3]
 r = sum_squares(z)
-print(z)
+print(r)
