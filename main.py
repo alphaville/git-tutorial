@@ -9,6 +9,11 @@ def sum_squares(x):
 
 
 def sum_cubes(x):
+    """Sum of cubes
+
+    :param x: list of numbers
+    :return: sum of squares (number)
+    """
     s = 0
     for xi in x:
         s += xi**3
